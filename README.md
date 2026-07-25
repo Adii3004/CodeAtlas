@@ -61,7 +61,7 @@ so, and the evaluation layer flags it.
 
 ## Architecture
 
-```mermaid
+<!-- ```mermaid
 flowchart LR
     subgraph Client["Frontend · React 19 + Vite"]
         UI["Pages<br/>Overview · Repositories · Ask · Map · Insights"]
@@ -96,7 +96,7 @@ flowchart LR
     S -->|retrieve| QD
     S -->|generate| GM
     API -.-> PG
-```
+``` -->
 
 ### Repository analysis pipeline
 
