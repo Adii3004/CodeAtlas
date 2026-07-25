@@ -1,0 +1,27 @@
+line-length = 88
+target-version = "py312"
+extend-exclude = ["backend/venv", "frontend"]
+
+[lint]
+# Pyflakes, pycodestyle errors, and import sorting.
+select = ["E4", "E7", "E9", "F", "I"]
+
+[lint.isort]
+known-first-party = [
+    "ai",
+    "api",
+    "chunking",
+    "config",
+    "context",
+    "embeddings",
+    "evaluation",
+    "graph",
+    "knowledge",
+    "main",
+    "parsers",
+    "reports",
+    "retrieval",
+    "scanner",
+    "services",
+    "utils",
+]
